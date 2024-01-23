@@ -1,0 +1,283 @@
+
+.navbar{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction:row ;
+    justify-content: end;
+
+
+}
+.nav1{
+    width: 75%;
+    height: 40px;
+    /* background-color: rgb(34, 32, 127); */
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    gap: 3px;
+}
+.buttons{
+    width: 27%;
+    height: 40px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.icons{
+    width: 50px;
+    height: 100%;
+    background-color: rgb(56, 56, 56);
+    border: 0;
+    
+}
+.icons img{
+    width: 22px;
+    height: 22px;
+}
+.icons span{
+    color: gainsboro;
+}
+.nav2{
+    width: 15%;
+    height: 40px;
+    /* background-color: rgb(34, 32, 127); */
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    gap: 3px;
+}
+
+.time{
+    width: 60px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+}
+.time span{
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+    .navbar{
+        width: 100%;
+    }
+    .buttons{
+        /* background-color: aqua; */
+        width: 35%;
+    }
+    .icons{
+        width: 50px;
+        height: 100%;
+    
+        
+    }
+    .icons img{
+        width: 18px;
+        height: 18px;
+    }
+    .icons span{
+        color: gainsboro;
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1024px) {
+    
+}
+@media only screen and (min-width: 930px) and (max-width: 1000px) {
+    .navbar{
+        width: 100%;
+    }
+    .buttons{
+        /* background-color: aqua; */
+        width: 42%;
+    }
+    .icons{
+        width: 50px;
+        height: 100%;
+    
+        
+    }
+    .icons img{
+        width: 18px;
+        height: 18px;
+    }
+    .icons span{
+        color: gainsboro;
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 930px) {
+    .buttons{
+        /* background-color: aqua; */
+        width:45%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .icons{
+        width: 50px;
+        height: 95%;
+    }
+    .icons img{
+        width: 16px;
+        height: 16px;
+    }
+    .icons span{
+        color: gainsboro;
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 900px) {
+    .buttons{
+        /* background-color: aqua; */
+        width:45%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .icons{
+        width: 47px;
+        height: 95%;
+    }
+    .icons img{
+        width: 16px;
+        height: 16px;
+    }
+    .icons span{
+        color: gainsboro;
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 730px) and (max-width: 800px) {
+    .buttons{
+        /* background-color: aqua; */
+        width:45%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .icons{
+        width: 47px;
+        height: 95%;
+    }
+    .icons img{
+        width: 16px;
+        height: 16px;
+    }
+    .icons span{
+        color: gainsboro;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 730px) {
+    .buttons{
+        /* background-color: aqua; */
+        width:45%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .icons{
+        width: 47px;
+        height: 95%;
+    }
+    .icons img{
+        width: 16px;
+        height: 16px;
+    }
+    .icons span{
+        color: gainsboro;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 630px) and (max-width: 700px) {
+    .buttons{
+        /* background-color: aqua; */
+        width:45%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .icons{
+        width: 47px;
+        height: 95%;
+    }
+    .icons img{
+        width: 16px;
+        height: 16px;
+    }
+    .icons span{
+        color: gainsboro;
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 630px) {
+    .buttons{
+        /* background-color: aqua; */
+        width:60%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .icons{
+        width: 40px;
+        height: 90%;
+    }
+    .icons img{
+        width: 16px;
+        height: 16px;
+    }
+    .icons span{
+        color: gainsboro;
+        font-size: 10px;
+    } 
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    .buttons{
+        /* background-color: aqua; */
+        width:70%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .icons{
+        width: 40px;
+        height: 87%;
+    }
+    .icons img{
+        width: 14px;
+        height: 14px;
+    }
+    .icons span{
+        color: gainsboro;
+        font-size: 10px;
+    } 
+}
+
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+    .buttons{
+        /* background-color: aqua; */
+        width:70%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .icons{
+        width: 40px;
+        height: 87%;
+    }
+    .icons img{
+        width: 14px;
+        height: 14px;
+    }
+    .icons span{
+        color: gainsboro;
+        font-size: 10px;
+    } 
+}
