@@ -680,9 +680,12 @@
      .desc span{
        font-size: 10px;
      }
+     .Sidesection{
+        width: 40%;
+     }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 400px) {
+@media only screen and (min-width: 100px) and (max-width: 400px) {
     .payment{
         overflow-y: scroll;
     }
@@ -719,18 +722,18 @@
     .billing {
         width: 95%;
         height: 65%;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         display: flex;
     }
     .dial{
         width: 100%;
-        background-color: azure;
+        /* background-color: azure; */
         overflow-y: scroll;
     }
 
     .dial button {
-        width: 19px;
-        height: 39px;
+        width: 26px;
+        height: 38px;
         font-size: 7px;
      }
      .heading span{
@@ -738,6 +741,9 @@
      }
      .desc span{
        font-size: 10px;
+     }
+     .Sidesection{
+        width: 50%;
      }
      
 }
