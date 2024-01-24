@@ -296,12 +296,12 @@
     .billing {
         width: 97%;
         height: 65%;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         display: flex;
     }
     .dial{
         width: 100%;
-        background-color: azure;
+        /* background-color: azure; */
     }
 
     .dial button {
@@ -337,7 +337,7 @@
         width: 100%;
     }
       .customer-btn img{
-        width: 17px;
+        width: 20px;
         height: 17px;
     }
     .customer-btn span{
@@ -347,12 +347,12 @@
     .billing {
         width: 95%;
         height: 65%;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         display: flex;
     }
     .dial{
         width: 100%;
-        background-color: azure;
+        /* background-color: azure; */
     }
 
     .dial button {
@@ -397,12 +397,12 @@
     .billing {
         width: 95%;
         height: 65%;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         display: flex;
     }
     .dial{
         width: 100%;
-        background-color: azure;
+        /* background-color: azure; */
     }
 
     .dial button {
@@ -448,12 +448,12 @@
     .billing {
         width: 95%;
         height: 65%;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         display: flex;
     }
     .dial{
         width: 100%;
-        background-color: azure;
+        /* background-color: azure; */
     }
 
     .dial button {
@@ -499,12 +499,12 @@
     .billing {
         width: 95%;
         height: 65%;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         display: flex;
     }
     .dial{
         width: 100%;
-        background-color: azure;
+        /* background-color: azure; */
     }
 
     .dial button {
@@ -548,12 +548,12 @@
     .billing {
         width: 95%;
         height: 65%;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         display: flex;
     }
     .dial{
         width: 100%;
-        background-color: azure;
+        /* background-color: azure; */
     }
 
     .dial button {
@@ -602,12 +602,12 @@
     .billing {
         width: 95%;
         height: 65%;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         display: flex;
     }
     .dial{
         width: 100%;
-        background-color: azure;
+        /* background-color: azure; */
     }
 
     .dial button {
@@ -660,17 +660,17 @@
     .billing {
         width: 95%;
         height: 65%;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         display: flex;
     }
     .dial{
         width: 100%;
-        background-color: azure;
+        /* background-color: azure; */
         overflow-y: scroll;
     }
 
     .dial button {
-        width: 19px;
+        width: 35px;
         height: 39px;
         font-size: 7px;
      }
@@ -732,7 +732,7 @@
     }
 
     .dial button {
-        width: 26px;
+        width: 34px;
         height: 38px;
         font-size: 7px;
      }
